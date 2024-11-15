@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text on Image</title>
+    <style>
+
+        .price1, .price2, .utr, .trid, .date_time, .name, .logo, .upi_id{
+            font-family: 'Roboto', sans-serif;
+            position: absolute; /* Position text relative to the image container */
+            transform: translate(-50%, -50%); /* Adjusts the text position */
+            z-index: 1; /* Makes sure the text appears above the image */
+        }
+
+        .image-container img {
+            width: 25%;
+            height: 25%;
+            object-fit: cover; /* Ensures the image covers the container */
+        }
+
+        .price1 {
+            top: 17.7%; /* Centers text vertically */
+            left: 23.1%; /* Centers text horizontally */
+            color: #ebe9ec; /* Text color */
+            font-size: 17px; /* Text size */
+        }
+
+
+        .price2 {
+            top: 46.89%; /* Centers text vertically */
+            left: 23.1%; /* Centers text horizontally */
+            color: #ebe9ec; /* Text color */
+            font-size: 17px; /* Text size */
+        }
+
+        .utr {
+            top: 51%; /* Centers text vertically */
+            left: 11.58%; /* Centers text horizontally */
+            color: #b8b5b8; /* Text color */
+            font-size: 14.9px; /* Text size */
+        }
+
+        .trid {
+            top: 38.44%; /* Centers text vertically */
+            left: 8.55%; /* Centers text horizontally */
+            color: #e7e3e7; /* Text color */
+            font-size: 14.99px; /* Text size */
+        }
+
+        .date_time {
+            top: 6.29%; /* Centers text vertically */
+            left: 10.3%; /* Centers text horizontally */
+            color: #d2d1d1; /* Text color */
+            font-size: 12.8px; /* Text size */
+        }
+
+        .name {
+            top: 17.7%; /* Centers text vertically */
+            left: 10.7%; /* Centers text horizontally */
+            color: #d2d1d1; /* Text color */
+            font-size: 17.2px; /* Text size */
+        }
+
+        .logo {
+            top: 19%; /* Centers text vertically */
+            left: 3.54%; /* Centers text horizontally */
+            color: white; /* Text color */
+            font-size: 17.2px; /* Text size */
+        }
+
+        .upi_id {
+            top: 20.6%; /* Centers text vertically */
+            left: 10.5%; /* Centers text horizontally */
+            color: #b8b5b8; /* Text color */
+            font-size: 14.8px; /* Text size */
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="image-container">
+        <img src="transaction_success_page.jpg" alt="Image">
+
+        <div class="date_time">
+            00:32 AM on 15 Nov 2024
+        </div>
+
+        <div class="price1">
+            1000
+        </div>
+
+        <div class="price2">
+            1000
+        </div>
+
+        <div class="name">
+            SHANKY CHAUHAN
+        </div>
+
+        <div class="logo">
+            SC
+        </div>
+
+        <div class="upi_id">
+            ranveer89548@okicici
+        </div>
+
+        <div class="trid">
+            T2795948110093679422472
+        </div>
+
+        <div class="utr">
+            776828209221
+        </div>
+
+    </div>
+
+</body>
+</html>
